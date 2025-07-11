@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sai Venkata Nagendra Babu S – Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <canvas id="bg-canvas"></canvas>
+  <header class="hero">
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h1>
+        <span class="gradient-text">Sai Venkata Nagendra Babu S</span>
+      </h1>
+      <p class="subtitle">Full Stack Developer | B.Tech CSE @ Amrita Vishwa Vidyapeetham</p>
+      <a href="#contact" class="cta-btn">Let's Connect</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="about section reveal">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I am a passionate full stack developer, currently in my fourth year of B.Tech in Computer Science and Engineering at Amrita Vishwa Vidyapeetham, Amaravati. I love building dynamic and efficient web applications, and I'm committed to continuous learning and making a meaningful impact in tech.
+        </p>
+        <ul class="info-list">
+          <li><strong>Email:</strong> saivenkatanagendrababu@gmail.com</li>
+          <li><strong>Phone:</strong> 9347383146</li>
+          <li><strong>Location:</strong> Amaravati, Andhra Pradesh, India</li>
+          <li><strong>LinkedIn:</strong> <a href="#">LinkedIn</a></li>
+          <li><strong>GitHub:</strong> <a href="#">GitHub</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="experience" class="section reveal">
+      <div class="container">
+        <h2>Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="timeline-date">May 2025 – Present</span>
+            <h3>Full Stack Developer Intern – Alpixn (Remote)</h3>
+            <ul>
+              <li>Responsible for both front-end and back-end development tasks.</li>
+              <li>Performance optimization and code reviews.</li>
+              <li>Contributed to project planning and development.</li>
+            </ul>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">Jan 2025 – Feb 2025</span>
+            <h3>Prompt Engineer – Soul AI</h3>
+            <ul>
+              <li>Worked on reinforcement learning through human feedback.</li>
+              <li>Optimized AI model responses with prompt engineering.</li>
+              <li>Collaborated to enhance AI accuracy and efficiency.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card glass">
+            <h3>Full Stack Hotel Booking App (MERN)</h3>
+            <p>
+              Developed a fully functional hotel booking web app using MongoDB, Express.js, React.js, Node.js, Clerk (Authentication), Stripe (Payments), and Tailwind CSS.
+            </p>
+            <ul>
+              <li>User authentication and management with Clerk</li>
+              <li>Hotel search, listing, details, and online booking</li>
+              <li>Admin dashboard for hotel owners</li>
+              <li>Booking management and Stripe integration</li>
+              <li>Responsive UI with Figma-based design</li>
+              <li>Deployed live on Vercel</li>
+            </ul>
+          </div>
+          <div class="project-card glass">
+            <h3>MERN Dashboard</h3>
+            <p>
+              Built and deployed a full-stack dashboard application using the MERN stack and Refine framework.
+            </p>
+            <ul>
+              <li>Modern Material UI design with TypeScript</li>
+              <li>CRUD operations, Google OAuth authentication</li>
+              <li>Pagination, sorting, filtering, and data visualization with ApexCharts</li>
+              <li>Cloudinary integration for image management</li>
+              <li>Step-by-step deployment guidance</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section reveal">
+      <div class="container">
+        <h2>Certifications</h2>
+        <div class="cert-list">
+          <div class="cert-item glass">
+            <h3>HackNight'25: Certificate of Participation</h3>
+            <p>
+              Awarded for participating in HackNight'25, a 36-hour hackathon organized by HackClub VIT Chennai from March 5th to 7th, 2025. Recognized for active involvement and contribution as a participant.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section reveal">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div>
+            <h4>Programming Languages</h4>
+            <ul>
+              <li>Python</li>
+              <li>Java</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Languages & Frameworks</h4>
+            <ul>
+              <li>React</li>
+              <li>JavaScript</li>
+              <li>HTML & CSS</li>
+              <li>Node.js</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Technical Skills</h4>
+            <ul>
+              <li>DBMS</li>
+              <li>Computer Networks</li>
+              <li>OOPS</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Languages</h4>
+            <ul>
+              <li>English (Limited Working Proficiency)</li>
+              <li>Telugu (Native Proficiency)</li>
+              <li>Hindi (Limited Working Proficiency)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <div class="container">
+        <h2>Contact</h2>
+        <form id="contactForm">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        <p class="contact-info">Or email me directly: <a href="mailto:saivenkatanagendrababu@gmail.com">saivenkatanagendrababu@gmail.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Sai Venkata Nagendra Babu S. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
